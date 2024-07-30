@@ -1,0 +1,87 @@
+@media screen and (min-width: 480px) {
+
+    body {
+        margin: 0 10px 10px 10px; /* all sidees */
+    }
+
+    header {
+        padding: 0 1em; /* 0 for top and bottom, 1em for left and right */
+        background-color: #f6e4f6;
+        padding: 1em;
+        margin-bottom: 10px;
+        display: flex;  /* Enable flexbox */
+        justify-content: space-between;  /* Spread h1 and nav to opposite ends */
+        align-items: center;  /* Center items vertically */
+    }
+
+    .words.nouns {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .words.adjectives{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    main {
+        display: flex;  /* Enable flexbox */
+        flex-direction: row;  /* Arrange items in a row */
+        justify-content: space-between;  /* Spread sections to the left and right and kind centerish */
+    }
+
+    /* Ensure each section has some flex properties to control spacing */
+    section {
+        flex: 1;
+        margin: 0 10px;
+    }
+}
+
+
+
+
+body {
+    margin: 0;
+   }
+   
+  
+
+   
+   header a {
+    color: #732673;
+}
+
+section {
+    background-color: #d1f0de;
+    padding: 1em;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 3px #2e8b57;
+}
+
+
+section {
+ background-color: #d1f0de;
+ padding: 1em;
+ margin-bottom: 10px;
+ box-shadow: 0px 2px 3px #2e8b57;
+}
+
+
+h2 {
+ margin-top: 0;
+}
+
+
+.words p {
+ border: 2px solid #2e8b57;
+ background-color: white;
+ padding: 1em;
+ margin: 2px;
+}
+
